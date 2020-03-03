@@ -23,3 +23,8 @@ Input: mat = [[1,1,1,1],
               [1,1,1,1],
               [1,1,1,1]]
 Output: 8
+
+Example 3:
+
+Input: mat = [[5]]
+Output: 5
