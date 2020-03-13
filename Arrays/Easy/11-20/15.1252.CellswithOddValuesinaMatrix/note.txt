@@ -35,3 +35,8 @@ Hint 1
 
 Simulation : With small constraints, it is possible to apply
 changes to each row and column and count odd cells after applying it.
+
+Hint 2
+
+You can accumulate the number you should add to each row and
+column and then you can count the number of odd cells.
