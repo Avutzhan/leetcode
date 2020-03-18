@@ -30,3 +30,8 @@ Constraints:
 1 <= indices.length <= 100
 0 <= indices[i][0] < n
 0 <= indices[i][1] < m
+
+Hint 1
+
+Simulation : With small constraints, it is possible to apply
+changes to each row and column and count odd cells after applying it.
