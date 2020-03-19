@@ -22,3 +22,11 @@ Example 2
 Input: n = 2, m = 2, indices = [[1,1],[0,0]]
 Output: 0
 Explanation: Final matrix = [[2,2],[2,2]]. There is no odd number in the final matrix.
+
+Constraints:
+
+1 <= n <= 50
+1 <= m <= 50
+1 <= indices.length <= 100
+0 <= indices[i][0] < n
+0 <= indices[i][1] < m
