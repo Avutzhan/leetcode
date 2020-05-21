@@ -37,3 +37,7 @@ Constraints:
 Hint 1
 
 Notice that the constraints are small enough for a brute force solution to pass.
+
+Hint 2
+
+Loop through all triplets, and count the ones that are good.
