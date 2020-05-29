@@ -33,3 +33,7 @@ Constraints:
 3 <= arr.length <= 100
 0 <= arr[i] <= 1000
 0 <= a, b, c <= 1000
+
+Hint 1
+
+Notice that the constraints are small enough for a brute force solution to pass.
