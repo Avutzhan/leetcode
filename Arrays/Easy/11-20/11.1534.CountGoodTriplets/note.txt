@@ -27,3 +27,9 @@ Example 2:
 Input: arr = [1,1,2,2,3], a = 0, b = 0, c = 1
 Output: 0
 Explanation: No triplet satisfies all conditions.
+
+Constraints:
+
+3 <= arr.length <= 100
+0 <= arr[i] <= 1000
+0 <= a, b, c <= 1000
