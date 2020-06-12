@@ -10,5 +10,6 @@ at the time startTime[i] and finished it at time endTime[i].
 
 Return the number of students doing their
 homework at time queryTime. More formally,
-return the number of students where queryTime lays in the interval [startTime[i], endTime[i]] inclusive.
+return the number of students where queryTime
+lays in the interval [startTime[i], endTime[i]] inclusive.
 
