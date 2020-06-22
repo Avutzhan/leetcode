@@ -44,3 +44,6 @@ To walk from point A to point B there will be an optimal strategy to walk ?
 Hint 2
 
 Advance in diagonal as possible then after that go in straight line.
+
+Hint 3
+Repeat the process until visiting all the points.
