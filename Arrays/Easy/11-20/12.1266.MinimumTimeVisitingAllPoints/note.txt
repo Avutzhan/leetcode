@@ -21,3 +21,8 @@ Explanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1
 Time from [1,1] to [3,4] = 3 seconds
 Time from [3,4] to [-1,0] = 4 seconds
 Total time = 7 seconds
+
+Example 2:
+
+Input: points = [[3,2],[-2,2]]
+Output: 5
