@@ -32,3 +32,7 @@ Constraints:
 Hint 1
 
 How to compute the number of digits of a number ?
+
+Hint 2
+
+Divide the number by 10 again and again to get the number of digits.
