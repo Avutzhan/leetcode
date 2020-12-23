@@ -1,8 +1,7 @@
-1480. Running Sum of 1d Array
-Easy
-Array
+#solution 1
 
-def runningSum(self, nums):
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
         i = 1
         while i<len(nums):
             nums[i]+=nums[i-1]
