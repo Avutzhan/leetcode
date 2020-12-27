@@ -1,6 +1,5 @@
 //solution 1
 const runningSum = nums => {
-    // console.log(nums, "input array");
     nums.reduce((a,c,i,arr) => arr[i] += a)
     return nums
 }
