@@ -1,5 +1,5 @@
 <?php
-//best solution simple
+//solution 1
 
 class Solution {
 
@@ -8,12 +8,9 @@ class Solution {
      * @return Integer[]
      */
     function runningSum($nums) {
-        $run = 0;
         $sum = [];
-
-        for($i = 0; $i < count($nums); $i++) {
-            $run += $nums[$i];
-            $sum[] = $run;
+        for ($i = 0; $i < count($nums); $i++) {
+            $sum[$i] = $sum[$i - 1] + $nums[$i];
         }
 
         return $sum;
