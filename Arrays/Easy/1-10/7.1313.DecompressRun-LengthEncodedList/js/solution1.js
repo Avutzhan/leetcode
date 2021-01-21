@@ -1,11 +1,16 @@
 /**
  * @param {number[]} nums
  * @return {number[]}
+ * simple to understand
  */
 var decompressRLElist = function(nums) {
-    return nums.reduce(
-        (acc, cur, i, arr) =>
-            i % 2 ? [...acc, ...Array(arr[i - 1]).fill(cur)] : acc,
-        []
-    );
+    var result = [];
+
+    for (var i = 1; i < nums.length; i += 2 ) {
+        for (var j = 0; j < nums[i - 1]; j++ ) {
+            result.push(nums[i]);
+        }
+    }
+
+    return result;
 };
