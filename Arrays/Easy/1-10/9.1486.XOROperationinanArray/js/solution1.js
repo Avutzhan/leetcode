@@ -4,9 +4,11 @@
  * @return {number}
  */
 var xorOperation = function(n, start) {
-    let xor = 0
-    for (let i=0; i<n ; i++){
-        xor ^= start + 2 * i
+    let result = start;
+
+    for (let i = 1; i < n; i++) {
+        result = result ^ (start + 2 * i);
     }
-    return xor
+
+    return result;
 };
