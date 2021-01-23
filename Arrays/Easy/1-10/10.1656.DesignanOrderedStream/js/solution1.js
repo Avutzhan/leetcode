@@ -3,7 +3,7 @@
  */
 var OrderedStream = function(n) {
     this.arr = new Array(n);
-    this.index = 0;
+    this.index = 1;
 };
 
 /**
@@ -12,10 +12,11 @@ var OrderedStream = function(n) {
  * @return {string[]}
  */
 OrderedStream.prototype.insert = function(id, value) {
-    this.arr[id - 1] = value;
+    this.arr[id] = value;
     const result = [];
-    while (this.arr[this.index]) {
-        result.push(this.arr[this.index++]);
+    while (this.arr[this.index] != undefined) {
+        result.push(this.arr[this.index]);
+        this.index++;
     }
     return result;
 };
@@ -24,4 +25,6 @@ OrderedStream.prototype.insert = function(id, value) {
  * Your OrderedStream object will be instantiated and called as such:
  * var obj = new OrderedStream(n)
  * var param_1 = obj.insert(id,value)
+ * var param_2 = obj.insert(id,value)
+ * var param_3 = obj.insert(id,value)
  */
