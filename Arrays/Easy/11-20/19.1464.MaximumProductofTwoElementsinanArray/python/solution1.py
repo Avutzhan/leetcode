@@ -9,4 +9,3 @@ class Solution:
 
         return (m1 - 1) * (m2 - 1);
 
-        
