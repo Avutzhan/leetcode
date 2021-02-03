@@ -3,32 +3,20 @@
 class Solution {
 
     /**
-     * @param Integer $lowLimit
-     * @param Integer $highLimit
-     * @return Integer
+     * @param Integer[] $prices
+     * @return Integer[]
      */
-    function countBalls($lowLimit, $highLimit) {
-        $boxes = [];
-        $max = 0;
-        for($i=$lowLimit;$i<=$highLimit;++$i){
-            $s = $this->sumOfDigits($i);
-            if(!$boxes[$s]){
-                $boxes[$s] = [];
+    function finalPrices($prices) {
+        for($i=0;$i<count($prices);$i++){
+            $j=$i+1;
+            while($j<count($prices)){
+                if($prices[$j]<=$prices[$i]){
+                    $prices[$i]=$prices[$i]-$prices[$j];
+                    break;
+                }
+                $j++;
             }
-            array_push($boxes[$s], $i);
-
-            $max = max($max, count($boxes[$s]));
         }
-        return $max;
-    }
-
-    function sumOfDigits($n) {
-        $sum = 0;
-        while($n>0){
-            $sum += $n%10;
-            $n = floor($n/10);
-        }
-        return $sum;
+        return $prices;
     }
 }
-
