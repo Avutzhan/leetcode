@@ -1,9 +1,20 @@
 /**
- * @param {number[]} arr
- * @return {number}
+ * @param {number[][]} nums
+ * @param {number} r
+ * @param {number} c
+ * @return {number[][]}
  */
-var trimMean = function(A) {
-    let N = A.length,
-        K = Math.floor(N / 20);
-    return A.sort((a, b) => a - b).slice(K, N - K).reduce((a, b) => a + b) / (N - 2 * K);
+var matrixReshape = function(nums, h, w) {
+    const m = nums.length, n = nums[0].length;
+    if (m * n !== h * w) return nums;
+    const res = [];
+    for (let i = 0, r = 0; r < m; r++) {
+        for (let c = 0; c < n; c++, i++) {
+            let rr = Math.floor(i / w);
+            if (!res[rr]) res.push([]);
+            res[rr].push(nums[r][c]);
+        }
+    }
+    return res;
 };
+
