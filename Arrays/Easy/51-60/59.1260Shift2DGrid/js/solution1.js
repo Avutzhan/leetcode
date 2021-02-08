@@ -1,15 +1,19 @@
 /**
- * @param {number[][]} matrix
- * @return {boolean}
+ * @param {number[][]} grid
+ * @param {number} k
+ * @return {number[][]}
  */
-var isToeplitzMatrix = function(matrix) {
-    for (var i = 0; i < matrix.length - 1; i++) {
-        for (var j = 0; j < matrix[0].length - 1; j++) {
-            if (matrix[i][j] != matrix[i+1][j+1]) {
-                return false;
-            }
-        }
+var shiftGrid = function(grid, k) {
+    var arr = grid.flat();
+    while (k--) {
+        arr.unshift(arr.pop());
     }
 
-    return true;
+    var res = [];
+    var len = grid[0].length;
+    while (arr.length) {
+        res.push(arr.splice(0, len));
+    }
+
+    return res;
 };
