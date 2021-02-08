@@ -2,17 +2,13 @@
  * @param {number[]} nums
  * @return {number}
  */
-var minStartValue = function(nums) {
-    var min = 1;
-    var sum = 0;
-
-    for(var i=0;i<nums.length;i++){
-        sum = sum+nums[i];
-        min = Math.min(min,sum);
+var specialArray = function(nums) {
+    for (let i = 0; i <= nums.length; ++i) {
+        let c = 0;
+        for (const num of nums) {
+            num >= i && ++c;
+        }
+        if (c === i) return i;
     }
-    if(min == 1){
-        return min;
-    }
-    // add 1 to negative of min value obtained to keep the sum always positive
-    return (-1*min)+1;
+    return -1;
 };
