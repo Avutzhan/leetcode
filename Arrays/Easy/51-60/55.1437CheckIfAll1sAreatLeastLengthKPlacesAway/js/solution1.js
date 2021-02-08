@@ -1,16 +1,15 @@
 /**
- * @param {number[]} arr
- * @return {number[][]}
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {boolean}
  */
-var minimumAbsDifference = function(arr) {
-    const ans = [];
-    arr.sort((a, b) => a - b);
-    let minDiff = Infinity;
-    for (let i = 1; i < arr.length; i++) {
-        minDiff = Math.min(minDiff, arr[i] - arr[i - 1]);
+var kLengthApart = function(A, k) {
+    for (let i=-k-1,  j=0; j<A.length; j++) {
+        if (A[j] == 1) {
+            if (j-i-1 < k )
+                return false;
+            i = j;
+        }
     }
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] - arr[i - 1] === minDiff) ans.push([arr[i - 1], arr[i]]);
-    }
-    return ans;
+    return true;
 };
