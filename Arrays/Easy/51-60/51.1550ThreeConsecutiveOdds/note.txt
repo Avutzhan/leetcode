@@ -1,4 +1,4 @@
-
+1550 Three Consecutive Odds
 Easy
 Array Hash Table
 
