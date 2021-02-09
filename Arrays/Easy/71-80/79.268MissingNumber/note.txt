@@ -1,3 +1,4 @@
+268. Missing Number
 Easy
-Array
+Array / Math / Bit Manipulation
 
