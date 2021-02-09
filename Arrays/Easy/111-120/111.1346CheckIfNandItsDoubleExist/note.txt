@@ -1,4 +1,4 @@
-
+1346. Check If N and Its Double Exist
 Easy
-Array Hash Table
+Array
 
