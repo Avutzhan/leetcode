@@ -1,4 +1,4 @@
-
+53. Maximum Subarray
 Easy
-Array
+Array / Divide and Conquer / Dynamic Programming
 
