@@ -1,3 +1,4 @@
+283. Move Zeroes
 Easy
-Array
+Array / Two Pointers
 
