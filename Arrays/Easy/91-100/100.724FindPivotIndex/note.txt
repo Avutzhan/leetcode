@@ -1,3 +1,4 @@
+724. Find Pivot Index
 Easy
 Array
 
