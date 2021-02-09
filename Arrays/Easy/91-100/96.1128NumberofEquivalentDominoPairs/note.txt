@@ -1,3 +1,4 @@
+1128. Number of Equivalent Domino Pairs
 Easy
 Array
 
