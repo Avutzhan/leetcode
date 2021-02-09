@@ -1,4 +1,4 @@
-
+169. Majority Element
 Easy
-Array
+Array / Divide and Conquer / Bit Manipulation
 
