@@ -1,4 +1,4 @@
-
+605. Can Place Flowers
 Easy
-Array
+Array / Greedy
 
