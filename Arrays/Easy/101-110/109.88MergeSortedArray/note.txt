@@ -1,3 +1,4 @@
+88. Merge Sorted Array
 Easy
-Array
+Array / Two Pointers
 
