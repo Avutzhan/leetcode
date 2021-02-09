@@ -1,3 +1,4 @@
+27. Remove Element
 Easy
-Array
+Array / Two Pointers
 
