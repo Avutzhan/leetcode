@@ -1,3 +1,4 @@
+219. Contains Duplicate II
 Easy
-Array
+Array / Hash Table
 
