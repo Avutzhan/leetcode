@@ -1,4 +1,4 @@
-
+35. Search Insert Position
 Easy
-Array
+Array / Binary Search
 
