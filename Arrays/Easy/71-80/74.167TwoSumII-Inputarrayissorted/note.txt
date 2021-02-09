@@ -1,4 +1,4 @@
-
+167. Two Sum II - Input array is sorted
 Easy
-Array
+Array / Two Pointers / Binary Search
 
