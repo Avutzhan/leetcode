@@ -10,7 +10,7 @@ class Solution:
             for q in range(len(nums)):
                 if nums[q] == a[i]:
                     count += 1
-            
+
             if count <= 1:
                 summ += a[i]
 
