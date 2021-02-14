@@ -12,4 +12,3 @@ class Solution:
                     break
 
         return distance
-        
