@@ -7,4 +7,3 @@ class Solution:
                 res[i][j] = A[j][i]
 
         return res
-        
