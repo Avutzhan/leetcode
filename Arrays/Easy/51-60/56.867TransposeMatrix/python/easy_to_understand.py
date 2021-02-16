@@ -9,4 +9,3 @@ class Solution:
                 newRow.append(A[r][c])
             transpose.append(newRow)
         return transpose
-        
