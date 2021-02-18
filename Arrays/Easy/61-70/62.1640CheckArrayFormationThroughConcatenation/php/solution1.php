@@ -8,30 +8,32 @@ class Solution {
      * @return Boolean
      */
     function canFormArray($arr, $pieces) {
-        $map = [];
-        foreach ($pieces as $subArray) {
-            $map[implode('-', $subArray)] = false;
+        $cache = [];
+        $joined = implode('', $arr);
+
+        for ($i = 0; $i < count($pieces); $i++) {
+            $piece = $pieces[$i];
+            $cache[$piece[0]] = $piece;
         }
 
-        $currentPiece = [];
-        for ($i = 0; $i < count($arr); $i++) {
-            $currentPiece[] = $arr[$i];
-            $key = implode('-', $currentPiece);
-            if (isset($map[$key]) && $map[$key] === false) {
-                $map[$key] = true;
-                $currentPiece = [];
-            }
-        }
+        $context = '';
+        $idx = 0;
 
-        if (!empty($currentPiece)) {
-            return false; // we have something from array, for which we found no match
-        }
-        foreach ($map as $wasUsed) {
-            if (!$wasUsed) {
+        while ($idx < count($arr)) {
+            $value = $arr[$idx];
+
+            $piece = $cache[$value];
+
+            if (!$piece) {
                 return false;
             }
+            $key = implode('', $piece);
+
+            $context .= $key;
+
+            $idx += count($piece);
         }
 
-        return true;
+        return $context === $joined;
     }
 }
