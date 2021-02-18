@@ -2,6 +2,7 @@
  * @param {number[]} A
  * @param {number[]} B
  * @return {number[]}
+ * not optimal for php programming language time limit error
  */
 var fairCandySwap = function(A, B) {
     let aliceArr = A;
