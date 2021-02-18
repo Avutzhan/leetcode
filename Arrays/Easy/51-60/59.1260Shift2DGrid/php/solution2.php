@@ -1,5 +1,6 @@
 <?php
 
+
 class Solution {
 
     /**
@@ -8,20 +9,29 @@ class Solution {
      * @return Integer[][]
      */
     function shiftGrid($grid, $k) {
-        $arr = $this->flatten_array($grid);
-        while ($k--) {
-            $end = array_pop($arr);
-            array_unshift($arr, $end);
+        $cols = count($grid[0]);
+        $rows = count($grid);
+        $len = $cols * $rows;
+        $items = $this->flatten_array($grid);
+        $newGrid = [];
+
+        $step = 0;
+        $k = $k % $len;
+        while ($step < $k) {
+            $end = array_pop($items);
+            array_unshift($items, $end);
+            $step++;
         }
 
-        $res = [];
-        $len = count($grid[0]);
-        while (count($arr)) {
-            $deleted = array_splice($arr, 0, $len);
-            array_push($res, $deleted);
+        for ($i = 0; $i < $rows; $i++) {
+            $newGrid[] = [];
+            for ($j = 0; $j < $cols; $j++) {
+                array_push($newGrid[$i], $items[$i * $cols + $j]);
+
+            }
         }
 
-        return $res;
+        return $newGrid;
     }
 
     function flatten_array(array $arrays)
