@@ -7,12 +7,17 @@ class Solution {
      * @return Integer
      */
     function removeDuplicates(&$nums) {
-        $index = 1;
-        for ($i = 1; $i < count($nums); $i++) {
-            if ($nums[$i] !== $nums[$i-1]) {
-                $nums[$index++] = $nums[$i];
+        $len = $count = count($nums);
+        if ($count < 2) {
+            return $count;
+        }
+        for($i = 1, $j = 0; $i < $count; $i++) {
+            if ($nums[$j] == $nums[$i]) {
+                unset($nums[$i]);
+                $len--;
+            }else {
+                $j = $i;
             }
         }
-        return $index;
     }
 }
