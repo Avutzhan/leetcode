@@ -8,4 +8,4 @@ class Solution:
         for i in range(mini+1,1,-1):
             res = all(value % i ==0 for value in count.values())
             if res: return True
-        return False  
+        return False
