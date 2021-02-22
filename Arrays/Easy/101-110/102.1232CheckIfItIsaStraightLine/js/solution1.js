@@ -2,19 +2,19 @@
  * @param {number[][]} coordinates
  * @return {boolean}
  */
-var checkStraightLine = function(coordinates) {
-    if (coordinates.length === 2) return true
-    const [x1, y1] = coordinates[0]
-    const [x2, y2] = coordinates[1]
+var checkStraightLine = function(coords) {
+    let n = coords.length;
 
-    /*
-      y = mx + b
-      b = y - mx
-      m = (y2 - y1) / (x2 - x1)
-      watch for x2 - x1 === 0
-    */
-    if (x2 - x1 === 0) return coordinates.every(([x]) => x === x1)
-    const m = (y2 - y1) / (x2 - x1)
-    const b = y1 - m * x1
-    return coordinates.every(([x, y]) => y === m * x + b)
+    for (let i = 0; i < n - 2; i++) {
+        let x1 = coords[i][0] * coords[i + 1][1] + coords[i + 1][0] * coords[i + 2][1] + coords[i + 2][0] * coords[i][1];
+        let x2 = coords[i][1] * coords[i + 1][0] + coords[i + 1][1] * coords[i + 2][0] + coords[i + 2][1] * coords[i][0];
+        let x3 = x1 - x2;
+        let area = Math.abs(1/2 * x3);
+
+        if (area > 0) {
+            return false;
+        }
+    }
+
+    return true;
 };
