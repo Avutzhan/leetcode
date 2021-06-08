@@ -1,5 +1,6 @@
+#в новый массив
 def findSmallest(arr):
-  smallest = arr[0] #ля хранения наименьшего значения
+  smallest = arr[0] #для хранения наименьшего значения
   smallest_index = 0 #для хранения его индекса
 
   for i in range(1, len(arr)):
