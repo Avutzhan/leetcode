@@ -6,3 +6,4 @@ def sum(arr):
   return total
 
 print(sum([2,2,2,2,2]))
+

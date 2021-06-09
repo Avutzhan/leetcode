@@ -9,3 +9,4 @@ function sum(arr) {
 }
 
 console.log(sum([2,2,2,2,2]));
+

@@ -11,3 +11,4 @@ function sum($arr) {
 }
 
 var_dump(sum([2,2,2,2,2]));
+
