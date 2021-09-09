@@ -6,4 +6,7 @@ class Solution:
             result.append(nums[i])
             result.append(nums[i + n])
         return result
+
+#nums = [2,5,1,3,4,7] n = 3
+#in loop i = 0, 1, 2; i + n = 3, 4, 5
         
