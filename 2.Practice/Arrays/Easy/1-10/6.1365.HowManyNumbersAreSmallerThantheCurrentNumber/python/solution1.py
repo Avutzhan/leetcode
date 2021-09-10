@@ -6,5 +6,3 @@ class Solution:
         for n in unsorted:
             result.append(nums.index(n))
         return result
-
-
