@@ -3,7 +3,7 @@ class Solution:
         obj = {}
 
         for i in range(lowLimit,highLimit+1):
-            summary = self.sumDigit(i);
+            summary = self.sumDigit(i)
             if summary not in obj:
                 obj[summary]=1
             else:
