@@ -3,7 +3,7 @@ class Solution:
         length1 = len(arr1)
         length2 = len(arr2)
 
-        distance = length1;
+        distance = length1
 
         for i in range(length1):
             for j in range(length2):
