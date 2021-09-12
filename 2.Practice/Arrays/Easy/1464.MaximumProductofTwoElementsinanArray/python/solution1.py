@@ -7,5 +7,5 @@ class Solution:
             m2 = max(m2, min(m1, nums[i]))
             m1 = max(m1, nums[i])
 
-        return (m1 - 1) * (m2 - 1);
+        return (m1 - 1) * (m2 - 1)
 
