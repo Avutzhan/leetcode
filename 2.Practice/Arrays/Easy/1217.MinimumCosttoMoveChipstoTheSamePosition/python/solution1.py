@@ -1,6 +1,6 @@
 class Solution:
     def minCostToMoveChips(self, position: List[int]) -> int:
-        odd = 0;
+        odd = 0
 
         for i in range(len(position)):
 
@@ -8,4 +8,4 @@ class Solution:
                 odd += 1
 
 
-        return min(len(position) - odd, odd);
+        return min(len(position) - odd, odd)

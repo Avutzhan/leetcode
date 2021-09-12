@@ -13,4 +13,4 @@ class Solution:
                 result[odd] = A[i]
                 odd += 2
 
-        return result;
+        return result

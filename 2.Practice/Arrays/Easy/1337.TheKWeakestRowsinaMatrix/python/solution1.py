@@ -4,7 +4,7 @@ class Solution:
         n = len(mat[0])
         ret = [0] * k
         visited = [0] * m
-        idx = 0;
+        idx = 0
 
         for i in range(n):
             for j in range(m):
