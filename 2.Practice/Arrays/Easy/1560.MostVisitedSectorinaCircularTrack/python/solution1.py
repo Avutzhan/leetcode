@@ -6,7 +6,7 @@ class Solution:
         print(end)
 
 
-        result = [];
+        result = []
 
         if start <= end:
             for i in range(start, end + 1):
