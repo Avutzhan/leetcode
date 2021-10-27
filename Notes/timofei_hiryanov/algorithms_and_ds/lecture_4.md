@@ -77,7 +77,9 @@
 examples of brute force
 
 def is_simple_number(x):
+    пробегаемся по всей последовательности
 
 def factorize_number(x):
+    пробегаемся по всей последовательности
 
 
