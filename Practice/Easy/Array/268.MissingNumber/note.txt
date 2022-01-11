@@ -7,3 +7,14 @@ return the only number in the range that is missing from the array.
 
 Follow up: Could you implement a solution using only O(1) extra space
 complexity and O(n) runtime complexity?
+
+Example:
+Input: [3, 0, 1]
+n = 3
+[0. 1. 2. 3]
+Output: 2
+
+Input: [0, 1]
+n = 2
+[0, 1, 2]
+Output: 2
