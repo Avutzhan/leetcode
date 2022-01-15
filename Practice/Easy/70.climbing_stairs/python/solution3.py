@@ -1,6 +1,6 @@
 def climbing_stairs(n):
     """
-    Recursion + Memoization(Top Down DP)
+    Recursion + Memoization(Top Down DP is recursion + memoization technique)
     Time: Linear O(n)
     Memory: O(Stack Size) = O(n)
     :return:
