@@ -1,3 +1,4 @@
+# Time O(a * c) Memory O(a)
 def coin_change(coins: list, amount: int) -> int:
     dp = [amount + 1] * (amount + 1)
     dp[0] = 0
