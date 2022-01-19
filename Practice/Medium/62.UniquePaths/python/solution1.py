@@ -1,4 +1,11 @@
 def unique_paths(m: int, n: int) -> int:
+    """
+    O(n * m)
+    O(n)
+    :param m:
+    :param n:
+    :return:
+    """
     row = [1] * n
 
     for i in range(m - 1):
