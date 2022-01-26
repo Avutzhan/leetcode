@@ -1,4 +1,9 @@
 def quick_sort(arr):
+    """
+    Pivot is first elemnt of array so time complexity is O(n^2)
+    :param arr:
+    :return:
+    """
     if len(arr) < 2:
         return arr
 
