@@ -1,11 +1,11 @@
-def miss_bin(nums):
-    res = 0
-    for i in range(len(nums)):
-        res ^= nums[i]
-    for i in range(0, len(nums) + 1):
-        res ^= i
-    return res
-
-
-print(miss_bin([3, 0, 1, 2]))
-
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        res = 0
+        # looping throgh nums [3, 0, 1]
+        for i in range(len(nums)):
+            res ^= nums[i]
+        # looping through tmp example list 0, 1, 2, 3
+        for i in range(0, len(nums) + 1):
+            print(i)
+            res ^= i
+        return res
