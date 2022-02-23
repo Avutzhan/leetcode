@@ -1,15 +1,13 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         """
-        T: O(n)
-        M: O(n)
+        T: O(n log n)
+        M: O(1)
         :param nums:
         :return:
         """
-        rec = set()
-        for n in nums:
-            if n in rec:
+        nums.sort()
+        for i in range(1, len(nums)):
+            if nums[i] == nums[i - 1]:
                 return True
-            else:
-                rec.add(n)
         return False
