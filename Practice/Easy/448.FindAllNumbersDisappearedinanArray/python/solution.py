@@ -1,5 +1,6 @@
 class Solution:
     """
+    BF
     T: O(n^2)
     M: O(n)
     """
