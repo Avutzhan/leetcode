@@ -14,20 +14,3 @@ def climbing_stairs_reverse(n):
 
 
 print(climbing_stairs_reverse(3))
-
-
-def climbing_stairs_forward(n):
-    """
-    Reverse Bottom Up
-    Time: Linear O(n)
-    Memory: O(n) list
-    :param n:
-    :return:
-    """
-    dp = [1] * (n + 1)
-    for i in range(2, n + 1):
-        dp[i] = dp[i - 1] + dp[i - 2]
-    return dp[-1]
-
-
-print(climbing_stairs_forward(6))
