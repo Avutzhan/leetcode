@@ -17,9 +17,6 @@ class Solution:
         start = 0
         end = len(nums) - 1
 
-        if start > end:
-            return 0
-
         while start <= end:
             mid = (start + end) // 2
 
