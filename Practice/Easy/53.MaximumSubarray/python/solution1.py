@@ -5,6 +5,12 @@ class Solution:
                 nums[i] += nums[i-1]
         return max(nums)
 
+class Solution1:
+    def maxSubArray1(self, nums: List[int]) -> int:
+        for i in range(1, len(nums)):
+            nums[i] = max(nums[i], nums[i] + nums[i - 1])
+        return max(nums)
+
 # input [-2,1,-3,4,-1,2,1,-5,4]
 #
 # 1) [1] -2 > 0 false
