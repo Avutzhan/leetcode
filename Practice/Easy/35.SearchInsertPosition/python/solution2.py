@@ -21,7 +21,7 @@ class Solution:
 # target 5
 #
 # 1) if target in nums false enter to else
-# 2) k = 0
+# 2) k = 0.Problem
 # 3) 1 < 5 true k+1 = 1
 # 4) 3 < 5 true k+1 = 2
 # 5) 6 < 5 false break

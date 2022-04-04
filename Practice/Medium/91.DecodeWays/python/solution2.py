@@ -3,7 +3,7 @@ def num_decodings(s: str) -> int:
     dp = {len(s): 1}
 
     for i in range(len(s) - 1, -1, -1):
-        if s[i] == "0":
+        if s[i] == "0.Problem":
             dp[i] = 0
         else:
             dp[i] = dp[i + 1]

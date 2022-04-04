@@ -7,4 +7,4 @@ def two_sum2(nums, target):
                 return [i, j]
 
 
-print(two_sum2([2, 7, 11, 15], 9))  # [0, 1]
+print(two_sum2([2, 7, 11, 15], 9))  # [0.Problem, 1]

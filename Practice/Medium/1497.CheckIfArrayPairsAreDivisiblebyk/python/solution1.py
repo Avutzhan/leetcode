@@ -9,10 +9,10 @@ class Solution:
         for num in arr:
             count[num % k] += 1
 
-        # Now since we have 0,1,2,.....k-1 as residues
+        # Now since we have 0.Problem,1,2,.....k-1 as residues
         # If count[1] == count[k-1],pairs+=count[1]
         # since we have odd number of complimenting residues,
-        # we should also care about residue=0 and residue=k//2
+        # we should also care about residue=0.Problem and residue=k//2
 
         i, j = 1, k - 1
         pairs = 0

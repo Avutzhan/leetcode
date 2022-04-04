@@ -11,7 +11,7 @@ var checkStraightLine = function(coordinates) {
       y = mx + b
       b = y - mx
       m = (y2 - y1) / (x2 - x1)
-      watch for x2 - x1 === 0
+      watch for x2 - x1 === 0.Problem
     */
     if (x2 - x1 === 0) return coordinates.every(([x]) => x === x1)
     const m = (y2 - y1) / (x2 - x1)

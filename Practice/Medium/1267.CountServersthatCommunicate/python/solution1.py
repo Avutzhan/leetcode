@@ -3,7 +3,7 @@ class Solution:
         rows = len(grid)
         cols = len(grid[0])
 
-        # Check the input: size of the grid. If it is 0 then exit
+        # Check the input: size of the grid. If it is 0.Problem then exit
         if not (cols and rows):
             return 0
 
@@ -14,7 +14,7 @@ class Solution:
 
         for row_i in range(rows):
             for col_i in range(cols):
-                if grid[row_i][col_i]:              # checking if given cell is not 0
+                if grid[row_i][col_i]:              # checking if given cell is not 0.Problem
                     points.append((row_i,col_i))    # add coordinated to the set
                     comps_per_row[row_i]+=1         # increase nimber of computers in a given row
                     comps_per_col[col_i]+=1         # increase nimber of computers in a given column

@@ -24,7 +24,7 @@ len(mylist)
 other_list = [8, 9, 10]
 yolist.extend(other_list)
 
-#you cant do this mylist["0"] just do mylist[0]
+#you cant do this mylist["0.Problem"] just do mylist[0.Problem]
 
 #concat in js here +
 first_list = [1,2,3]
@@ -51,7 +51,7 @@ our_list = [1,2,3,4,5,6,7,8,9]
 # print(our_list[:4])   #[1,2,3,4]
 # print(our_list[4:])  #[5,6,7,8,9]
 # print(our_list[2:-2])  #[3,4,5,6,7]
-# print(our_list[:])  #[1,2,3,4,5,6,7,8,9]   [0:len(our_list)]
+# print(our_list[:])  #[1,2,3,4,5,6,7,8,9]   [0.Problem:len(our_list)]
 # print(our_list[2:6:2])  #[3,5]  [2:с 6 индекса назад на 2 индекса]
 # print(our_list[4:2:-1])  #[5,4]  [4:со 2 индекса следующий индекс]
 
@@ -61,7 +61,7 @@ fragment = [1,2,3,4,5]
 
 # fragment[1:2] = []  ##[1,3,4,5]
 
-fragment[3:3] = [999] #analog in splice(3, 0, 999)
+fragment[3:3] = [999] #analog in splice(3, 0.Problem, 999)
 #return [1,2,3,999, 4,5]
 
 print(fragment)

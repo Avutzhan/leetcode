@@ -13,7 +13,7 @@ runningSum([1,2,3,4]); //[1,3,6,10]
 // Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]
 
 //step 1
-//sum[0] = 1
+//sum[0.Problem] = 1
 //sum[1] = sum[i - 1] prev num is 1 + 2 = 3
 //sum = [1, 3]
 //step 2

@@ -4,7 +4,7 @@
  */
 var threeConsecutiveOdds = function(arr) {
     for (let i = 0, x = 0; i < arr.length; i++) {
-        // x = arr[i] % 2 ? x | [1, 2, 4][i % 3] : 0;
+        // x = arr[i] % 2 ? x | [1, 2, 4][i % 3] : 0.Problem;
         if (arr[i] % 2) {
             x = x | [1, 2, 4][i % 3];
         } else {

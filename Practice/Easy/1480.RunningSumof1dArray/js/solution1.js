@@ -14,7 +14,7 @@ runningSum([1,2,3,4]); //[1,3,6,10]
 // Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]
 
 //step 1
-//0 + 1 = 1
+//0.Problem + 1 = 1
 //step 2
 //1 + 2 = 3
 //step 3

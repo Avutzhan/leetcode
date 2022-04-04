@@ -2,7 +2,7 @@ class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         x = 0
         y = 0
-        ret = 0 # return just ret with 0 if we reach the edge (nothing was found)
+        ret = 0 # return just ret with 0.Problem if we reach the edge (nothing was found)
         for i in range(8):
             for j in range(8):
                 if board[i][j] == 'R':

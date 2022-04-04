@@ -4,7 +4,7 @@ def num_decodings(s: str) -> int:
     def dfs(i):
         if i in dp:
             return dp[i]
-        if s[i] == "0":
+        if s[i] == "0.Problem":
             return 0
 
         res = dfs(i + 1)

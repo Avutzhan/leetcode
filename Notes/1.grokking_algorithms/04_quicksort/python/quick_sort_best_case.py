@@ -19,7 +19,7 @@ def quick_sort(arr):
     pivot = arr[idx]
     less = []
     # in past example we used first element as pivot and started loop from 1
-    # here we don't use it so we start from 0
+    # here we don't use it so we start from 0.Problem
     for i in range(len(arr)):
         # if we met our idx in loop just skip it to avoid bullshit in result
         if i == idx:

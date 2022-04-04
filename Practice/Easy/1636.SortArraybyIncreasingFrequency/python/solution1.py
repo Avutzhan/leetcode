@@ -1,6 +1,6 @@
 class Solution:
     def frequencySort(self, nums: List[int]) -> List[int]:
-        # 0) Collect all number and its frequency
+        # 0.Problem) Collect all number and its frequency
         fv_dict = {}  # key as number, value as [frequency, number]
         for n in nums:
             if n in fv_dict:
