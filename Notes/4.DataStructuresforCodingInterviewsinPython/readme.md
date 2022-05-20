@@ -10,7 +10,7 @@ If you want to deep dive to the topic just review folders above.
 ### References
 <hr>
 
-* This is Udemy Course
+* [This is Udemy Course](https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/)
 * [Paid Educative.io Data Structures for Coding Interviews in Python](https://www.educative.io/courses/data-structures-coding-interviews-python/qVQq0WLjO3p)
 * [Github reference](https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews)
 * [Jupyter notes](https://nbviewer.org/github/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/tree/master/)
