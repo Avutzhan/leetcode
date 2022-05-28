@@ -15,4 +15,5 @@ def merge_lists(lst1, lst2):
     res.sort()
     return res
 
+
 print(merge_lists([1, 3, 4, 5], [2, 6, 7, 8]))

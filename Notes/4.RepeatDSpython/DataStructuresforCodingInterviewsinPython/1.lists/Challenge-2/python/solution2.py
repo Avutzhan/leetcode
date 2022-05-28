@@ -1,4 +1,12 @@
 def merge(arr1, arr2):
+    """
+    In place
+    T: O(nm) or O(n^2) if n>m else O(m^2)
+    M: O(1)
+    :param arr1:
+    :param arr2:
+    :return:
+    """
     index1 = 0
     index2 = 0
 
