@@ -16,3 +16,10 @@ Here just challenges
 1. ~~Course set up **skipped**~~
 2. ~~Company and job types **skipped**~~
 3. ~~Resume preparation **skipped**~~
+
+### Repls
+
+https://replit.com/@Avutzhan/leetcode-python#main.py
+https://replit.com/@Avutzhan/leetcode-php#main.php
+https://replit.com/@Avutzhan/leetcode-js#index.js
+https://replit.com/@Avutzhan/leetcode-golang#main.go
