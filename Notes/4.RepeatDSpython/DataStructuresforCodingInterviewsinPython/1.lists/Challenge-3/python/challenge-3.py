@@ -19,21 +19,6 @@ def find_sum(lst, k):
     return False
 
 
-def find_sum(lst, k):
-    # iterate lst with i Brute Force
-    for i in range(len(lst)):
-        # iterate lst with j
-        for j in range(len(lst)):
-            # if sum of two iterators is k
-            # and i is not equal to j
-            # then we have our answer
-            if(lst[i]+lst[j] is k and i is not j):
-                return [lst[i], lst[j]]
-
-
-print(find_sum([1, 2, 3, 4], 5))
-
-
 def binary_search(a, item):
     first = 0
     last = len(a) - 1
