@@ -1,10 +1,10 @@
-#Algorithms and DS Interview Preparation
+# Algorithms and DS Interview Preparation
 
-В папке Notes мои конспекты по разным книгам по Алгоритмам
+Notes - different algo ds books notes
 
-В папке Practice задачи по уровню сложности из LeetCode с моими решениями
+Practice - Leetcode solutions
 
-В папке Theory что то вроде шпаргалки которую написал для себя по конспектам 
+Theory - cheat sheet  
 
-manual_test.py для тестирования в ручную
+manual_test.py - for manual testing
 
