@@ -1,4 +1,0 @@
-905. Sort Array By Parity
-Easy
-Array
-

@@ -1,5 +1,0 @@
-54. Spiral Matrix
-
-Array, Matrix, Simulation
-
-Given an m x n matrix, return all elements of the matrix in spiral order.

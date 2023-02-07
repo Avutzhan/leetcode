@@ -1,4 +1,0 @@
-561. Array Partition I
-Easy
-Array
-

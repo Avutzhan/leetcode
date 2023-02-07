@@ -1,4 +1,0 @@
-1051. Height Checker
-Easy
-Array
-

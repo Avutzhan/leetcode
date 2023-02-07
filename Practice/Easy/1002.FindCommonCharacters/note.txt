@@ -1,4 +1,0 @@
-1002. Find Common Characters
-Easy
-Array Hash Table
-
