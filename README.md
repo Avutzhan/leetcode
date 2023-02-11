@@ -11,3 +11,12 @@ Learned, read, solved all that i found about algorithms. I will try new method
 * Learn coding interview patterns
 * Practice in leetcode by topics
 
+### Simple Theory
+
+[Miro Cheat Sheet](https://miro.com/app/board/uXjVPprU-bc=/)
+
+Data Structures
+* Arrays
+
+Algorithms
+* Search algorithms
