@@ -15,8 +15,14 @@ Learned, read, solved all that i found about algorithms. I will try new method
 
 [Miro Cheat Sheet](https://miro.com/app/board/uXjVPprU-bc=/)
 
-Data Structures
+Data Structures:
 * Arrays
 
-Algorithms
+Algorithms:
 * Search algorithms
+  * linear search
+  * binary search
+
+Lear:
+1. search/linear_search
+2. search/binary_search
