@@ -23,7 +23,7 @@ I will try new method **Divide and Conquer**
   * will contain all solutions
 * Practice
   * will contain epmty functions that you will implement and test
-  * write code and run python tests/test_name -v
+  * write code and run python -m unittest -v tests/test_name.py
 * Tests
   * will contain ready tests
 
