@@ -1,9 +1,9 @@
 # Algorithms and DS Interview Preparation
 
 I was learning algorithms and data structures with **Brute Force** method.
-Learned, read, solved all that i found about algorithms.
+Learned, read, solved all that i found about algorithms. Brute Force not effective and quick way of learning.
 
-I will try new method **Divide and Conquer**
+I will try new method **Divide and Conquer**. This method must be quick and effective learning way.
 
 * Focus on one programming language (python)
 * Learn from basic topics
