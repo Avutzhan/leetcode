@@ -52,3 +52,5 @@ Algorithms:
 Learn:
 1. search/linear_search
 2. search/binary_search
+3. sort/merge (merge two sorted lists)
+4. sort/merge_sort
