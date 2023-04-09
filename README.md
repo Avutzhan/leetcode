@@ -33,6 +33,14 @@ I will try new method **Divide and Conquer**
 
 ::TODO replace with Algorithms and Data structures Roadmap (Ordered by easy to advanced)
 
+Books:
+1. Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People
+  * Introduction to algorithms and data structures for beginners
+
+Courses:
+1. Educative - Data Structures for Coding Interviews in Python
+  * Fundamentals of data structures with python for beginners
+
 Data Structures:
 * Arrays
 
