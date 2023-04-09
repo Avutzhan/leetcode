@@ -26,6 +26,7 @@ I will try new method **Divide and Conquer**
   * write code and run python -m unittest -v tests/test_name.py
 * Tests
   * will contain ready tests
+* Readme Learning path
 
 ### Learning Program
 
