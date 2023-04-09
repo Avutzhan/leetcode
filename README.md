@@ -49,6 +49,6 @@ Algorithms:
   * linear search
   * binary search
 
-Lear:
+Learn:
 1. search/linear_search
 2. search/binary_search
