@@ -1,9 +1,9 @@
 # Algorithms and DS Interview Preparation
 
-I was learning algorithms and data structures with brute force method.
-Learned, read, solved all that i found about algorithms. 
+I was learning algorithms and data structures with **Brute Force** method.
+Learned, read, solved all that i found about algorithms.
 
-### I will try new method
+I will try new method **Divide and Conquer**
 
 * Focus on one programming language (python)
 * Learn from basic topics
