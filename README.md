@@ -1,7 +1,7 @@
 # Algorithms and DS Interview Preparation
 
 I was learning algorithms and data structures with **Brute Force** method.
-Learned, read, solved all that i found about algorithms. Brute Force not effective and quick way of learning.
+Learned, read, solved all that I found about algorithms. Brute Force not effective and quick way of learning.
 
 I will try new method **Divide and Conquer**. This method must be quick and effective learning way.
 
@@ -32,7 +32,7 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 
 [Miro Cheat Sheet](https://miro.com/app/board/uXjVPprU-bc=/)
 
-::TODO replace with Algorithms and Data structures Roadmap (Ordered by easy to advanced)
+::TODO replace with Algorithms and Data structures Roadmap (Ordered by easy to advance)
 
 Books:
 1. Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People
