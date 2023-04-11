@@ -20,7 +20,8 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 ### Project structure
 
 * Learn
-  * will contain all solutions
+  * will contain all solutions 
+  * also not efficient and slow solutions to learn from zero and step by step we will make them better
   * before every code session understand problem and explain it on whiteboard by drawing simple steps to solve
 * Practice (implement and practice every day untill you can explain and implement code by yourself)
   * will contain epmty functions that you will implement and test

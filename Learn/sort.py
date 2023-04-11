@@ -1,3 +1,6 @@
+# Time: O(n^2)
+# Space: O(n^2)
+# this algorithm can't sort dublicated values
 def quick_sort(lst):
     if len(lst) < 2:
         return lst
@@ -9,6 +12,8 @@ def quick_sort(lst):
         return quick_sort(left) + [pivot] + quick_sort(right)
 
 
+# Time: O(n + m)
+# Space: O(n + m)
 def merge(lst1, lst2):
     idx1 = 0
     idx2 = 0
@@ -41,6 +46,8 @@ def merge(lst1, lst2):
     return res
 
 
+# Time: O(nlogn)
+# Space: O(n)
 def merge_sort(lst):
     if len(lst) <= 1:  # base case
         return lst

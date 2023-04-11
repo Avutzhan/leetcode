@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(1)
 def linear_search(lst, n):
     for i in range(len(lst)):
         if lst[i] == n:
@@ -5,6 +7,8 @@ def linear_search(lst, n):
     return -1
 
 
+# Time: O(logn)
+# Space: O(1)
 def binary_search(lst, n):
     l = 0
     h = len(lst) - 1
