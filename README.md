@@ -55,5 +55,11 @@ Algorithms:
 Learn:
 1. search/linear_search
 2. search/binary_search
-3. sort/merge (merge two sorted lists)
+3. sort/merge
+   * merge two sorted lists
 4. sort/merge_sort
+5. lists/remove_even 
+   * remove even numbers from array
+6. lists/find_sum
+   * Find Two Numbers that Add up to "K"
+7. 
