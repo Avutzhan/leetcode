@@ -9,3 +9,7 @@ def remove_even(lst):
 # Space: O(1)
 def find_sum(lst, k):
     pass
+
+
+def find_product(lst):
+    pass

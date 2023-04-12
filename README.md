@@ -62,4 +62,7 @@ Learn:
    * remove even numbers from array
 6. lists/find_sum
    * Find Two Numbers that Add up to "K"
-7. 
+7. find_product
+   * List of Products of all Elements
+   * Given a list, modify it so that each index stores the product of all elements in the list except the element at the index itself.
+8. 

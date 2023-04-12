@@ -11,3 +11,20 @@ def find_sum(lst, k):
         for j in range(len(lst)):
             if lst[i] + lst[j] == k and i != j:
                 return [lst[i], lst[j]]
+
+
+# Time: O(n)
+# Space: O(n)
+def find_product(lst):
+    left = 1
+    products = []
+    for i in lst:
+        products.append(left)
+        left = left * i
+
+    right = 1
+    for i in range(len(lst) - 1, -1, -1):
+        products[i] = products[i] * right
+        right = right * lst[i]
+
+    return products

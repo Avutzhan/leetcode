@@ -1,6 +1,6 @@
 import unittest
 
-from Practice.lists import remove_even, find_sum
+from Practice.lists import remove_even, find_sum, find_product
 
 
 class TestSearch(unittest.TestCase):
@@ -10,6 +10,9 @@ class TestSearch(unittest.TestCase):
 
     def test_find_sum(self):
         self.assertEqual(find_sum([1, 2, 3, 4], 5), [1, 4])
+
+    def test_find_product(self):
+        self.assertEqual(find_product([1, 2, 3, 4]), [24, 12, 8, 6])
 
 
 if __name__ == '__main__':
