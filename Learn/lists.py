@@ -36,3 +36,19 @@ def find_minimum(lst):
         if minimum > i:
             minimum = i
     return minimum
+
+
+def find_unique(lst):
+    for i in lst:
+        if counter(lst, i) == 1:
+            return lst[i]
+
+    return -1
+
+
+def counter(lst, n):
+    count = 0
+    for i in lst:
+        if i == n:
+            count += 1
+    return count

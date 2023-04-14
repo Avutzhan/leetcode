@@ -68,3 +68,7 @@ Learn:
 8. sort/find_smallest
 9. sort/select_sort
 10. lists/find_minimum
+11. lists/counter
+   * How many times repeated n in lst 
+13. lists/find_unique
+   * Return single unique value

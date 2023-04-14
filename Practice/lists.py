@@ -17,3 +17,13 @@ def find_product(lst):
 
 def find_minimum(lst):
     pass
+
+
+# Find single unique value
+def find_unique(lst):
+    pass
+
+
+# How many times n repeated in lst
+def counter(lst, n):
+    pass
