@@ -13,3 +13,7 @@ def find_sum(lst, k):
 
 def find_product(lst):
     pass
+
+
+def find_minimum(lst):
+    pass

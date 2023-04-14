@@ -28,3 +28,11 @@ def find_product(lst):
         right = right * lst[i]
 
     return products
+
+
+def find_minimum(lst):
+    minimum = lst[0]
+    for i in lst:
+        if minimum > i:
+            minimum = i
+    return minimum
