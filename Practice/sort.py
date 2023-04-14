@@ -1,3 +1,11 @@
+def find_smallest(lst):
+    pass
+
+
+def select_sort(lst):
+    pass
+
+
 def quick_sort(lst):
     pass
 

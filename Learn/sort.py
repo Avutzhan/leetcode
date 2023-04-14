@@ -1,3 +1,25 @@
+# Time: O(n)
+# Space: O(1)
+def find_smallest(lst):
+    smallest = lst[0]
+    smallest_idx = 0
+    for i in range(len(lst)):
+        if smallest > lst[i]:
+            smallest = lst[i]
+            smallest_idx = i
+    return smallest_idx
+
+
+# Time: O(n^2)
+# Space: O(n)
+def select_sort(lst):
+    res = []
+    for i in range(len(lst)):
+        smallest = find_smallest(lst)
+        res.append(lst.pop(smallest))
+    return res
+
+
 # Time: O(n^2)
 # Space: O(n^2)
 # this algorithm can't sort dublicated values
