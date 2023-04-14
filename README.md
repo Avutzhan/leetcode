@@ -65,4 +65,5 @@ Learn:
 7. find_product
    * List of Products of all Elements
    * Given a list, modify it so that each index stores the product of all elements in the list except the element at the index itself.
-8. 
+8. sort/find_smallest
+9. sort/select_sort
