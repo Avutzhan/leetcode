@@ -74,3 +74,7 @@ def right_rotate(lst, k):
     else:
         k = k % len(lst)
     return lst[-k:] + lst[:-k]
+
+
+def rearrange(lst):
+    return [i for i in lst if i < 0] + [i for i in lst if i >= 0]

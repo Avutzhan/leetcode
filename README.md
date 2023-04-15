@@ -45,7 +45,7 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
    * Fundamentals of data structures with python for beginners
 
 ### Data Structures:
-* Arrays
+* Lists
 
 ### Algorithms:
 
@@ -84,3 +84,4 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 | 13 | find_unique         | Return single unique value                      | lists     |               |
 | 14 | find_second_maximum | Return second maximum value                     | lists     |               |
 | 15 | right_rotate        | Rotate elements by one index from right to left | lists     |               |
+| 16 | rearrange           | Rearrange Positive & Negative Values            | lists     |               |

@@ -35,3 +35,8 @@ def find_second_maximum(lst):
 
 def right_rotate(lst, k):
     pass
+
+
+def rearrange(lst):
+    pass
+

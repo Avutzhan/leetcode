@@ -1,7 +1,7 @@
 import unittest
 
 from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum, \
-    right_rotate
+    right_rotate, rearrange
 
 
 class TestSearch(unittest.TestCase):
@@ -31,6 +31,11 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(right_rotate([300, -1, 3, 0], 3), [-1, 3, 0, 300])
         self.assertEqual(right_rotate([0, 0, 0, 2], 2), [0, 2, 0, 0])
         self.assertEqual(right_rotate(['13', 'a', 'Python'], 3), ['13', 'a', 'Python'])
+
+    def test_rearrange(self):
+        self.assertEqual(rearrange([-1, 2, -3, -4, 5]), [-1, -3, -4, 2, 5])
+        self.assertEqual(rearrange([300, -1, 3, 0]), [-1, 300, 3, 0])
+        self.assertEqual(rearrange([0, 0, 0, -2]), [-2, 0, 0, 0])
 
 
 if __name__ == '__main__':
