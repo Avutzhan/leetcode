@@ -31,3 +31,7 @@ def counter(lst, n):
 
 def find_second_maximum(lst):
     pass
+
+
+def right_rotate(lst, k):
+    pass

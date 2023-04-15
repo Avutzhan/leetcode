@@ -66,3 +66,11 @@ def find_second_maximum(lst):
         elif val > secondmax:
             secondmax = val
     return secondmax
+
+
+def right_rotate(lst, k):
+    if len(lst) == 0:
+        k = 0
+    else:
+        k = k % len(lst)
+    return lst[-k:] + lst[:-k]
