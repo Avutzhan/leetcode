@@ -15,6 +15,8 @@ def find_sum(lst, k):
 
 # Time: O(n)
 # Space: O(n)
+# Description: Given a list, modify it so that each index stores the product of all elements
+# in the list except the element at the index itself.
 def find_product(lst):
     left = 1
     products = []

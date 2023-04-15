@@ -17,7 +17,7 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
   * we must practice FAST problem-solving
 * After this will be System Design learning path, but it is another story
 
-### Project structure
+## Project structure
 
 * Learn
   * will contain all solutions 
@@ -30,45 +30,55 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
   * will contain ready tests
 * Readme Learning path
 
-### Learning Program
+## Learning Program
 
 [Miro Cheat Sheet](https://miro.com/app/board/uXjVPprU-bc=/)
 
 ::TODO replace with Algorithms and Data structures Roadmap (Ordered by easy to advance)
 
-Books:
+### Books:
 1. Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People
    * Introduction to algorithms and data structures for beginners
 
-Courses:
+### Courses:
 1. Educative - Data Structures for Coding Interviews in Python
    * Fundamentals of data structures with python for beginners
 
-Data Structures:
+### Data Structures:
 * Arrays
 
-Algorithms:
-* Search algorithms
-  * linear search
-  * binary search
+### Algorithms:
 
-Learn:
-1. search/linear_search
-2. search/binary_search
-3. sort/merge
-   * merge two sorted lists
-4. sort/merge_sort
-5. lists/remove_even 
-   * remove even numbers from array
-6. lists/find_sum
-   * Find Two Numbers that Add up to "K"
-7. find_product
-   * List of Products of all Elements
-   * Given a list, modify it so that each index stores the product of all elements in the list except the element at the index itself.
-8. sort/find_smallest
-9. sort/select_sort
-10. lists/find_minimum
-11. lists/counter
-   * How many times repeated n in lst 
-13. lists/find_unique
-   * Return single unique value
+| # | Category  | Title         | Time     | Space   | Data Structure |
+|---|-----------|---------------|----------|---------|----------------|
+| 1 | Search    | linear search | O(n^2)   | O(1)    | List           |
+| 2 | Search    | binary search | O(logn)  | O(1)    | List           |
+| 3 | Sort      | select sort   | O(n^2)   | O(n)    | List           |
+| 4 | Sort      | quick sort    | O(n^2)   | O(n^2)  | List           |
+| 5 | Sort      | merge sort    | O(nlogn) | O(n)    | List           |
+
+### Learn:
+
+```
+    Reminder! 
+    Just practice every problem in whiteboard before coding session.
+    Learn algorithmic thinking!
+    Not writing code.
+    You will write code looking at the picture that explains the problem
+```
+
+| #  | Title         | Description                         | Directory | Category      |
+|----|---------------|-------------------------------------|-----------|---------------|
+| 1  | linear_search |                                     | search    | FUNDAMENTALS  |
+| 2  | binary_search |                                     | search    | FUNDAMENTALS  |
+| 3  | merge         | merge two sorted arrays             | sort      |               |
+| 4  | merge_sort    |                                     | sort      | FUNDAMENTALS  |
+| 5  | quick_sort    |                                     | sort      |               |
+| 6  | remove_even   | remove even numbers from array      | lists     |               |
+| 7  | find_sum      | Find Two Numbers that Add up to "K" | lists     |               |
+| 8  | find_product  | List of Products of all Elements    | lists     |               |
+| 9  | find_smallest |                                     | sort      |               |
+| 10 | select_sort   |                                     | sort      | FUNDAMENTALS  |
+| 11 | find_minimum  |                                     | lists     |               |
+| 12 | counter       | How many times repeated n in lst    | lists     |               |
+| 13 | find_unique   | Return single unique value          | lists     |               |
