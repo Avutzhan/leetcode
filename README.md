@@ -39,10 +39,15 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 ### Books:
 1. Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People
    * Introduction to algorithms and data structures for beginners
+   * Lists Topic Finished and Understood Completely 
 
 ### Courses:
 1. Educative - Data Structures for Coding Interviews in Python
    * Fundamentals of data structures with python for beginners
+   * Lists Topic Finished but not understood completely need to practice more and polish my skills
+   
+2. Leetcode Explore [Arrays 101](https://leetcode.com/explore/featured/card/fun-with-arrays/)
+   * After polishing last 18 lists algo-problems i will start Arrays 101 to close lists topic and start linked lists
 
 ### Data Structures:
 * Lists
@@ -67,23 +72,23 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
     You will write code looking at the picture that explains the problem
 ```
 
-| #  | Title                 | Description                                     | Directory / Topic | Category      |
-|----|-----------------------|-------------------------------------------------|-------------------|---------------|
-| 1  | linear_search         |                                                 | search            | FUNDAMENTALS  |
-| 2  | binary_search         |                                                 | search            | FUNDAMENTALS  |
-| 3  | merge                 | merge two sorted arrays                         | sort              |               |
-| 4  | merge_sort            |                                                 | sort              | FUNDAMENTALS  |
-| 5  | quick_sort            |                                                 | sort              |               |
-| 6  | remove_even           | remove even numbers from array                  | lists             |               |
-| 7  | find_sum              | Find Two Numbers that Add up to "K"             | lists             |               |
-| 8  | find_product          | List of Products of all Elements                | lists             |               |
-| 9  | find_smallest         |                                                 | sort              |               |
-| 10 | select_sort           |                                                 | sort              | FUNDAMENTALS  |
-| 11 | find_minimum          |                                                 | lists             |               |
-| 12 | counter               | How many times repeated n in lst                | lists             |               |
-| 13 | find_unique           | Return single unique value                      | lists             |               |
-| 14 | find_second_maximum   | Return second maximum value                     | lists             |               |
-| 15 | right_rotate          | Rotate elements by one index from right to left | lists             |               |
-| 16 | rearrange             | Rearrange Positive & Negative Values            | lists             |               |
-| 17 | max_min               | Rearrange Sorted List in Max/Min Form           | lists             |               |
-| 17 | find_max_sum_sublist  | Maximum Sum Sublist                             | lists             |               |
+| #  | Title                 | Description                                     | Directory / Topic | Category      | Polished |
+|----|-----------------------|-------------------------------------------------|-------------------|---------------|----------|
+| 1  | linear_search         |                                                 | search            | FUNDAMENTALS  |          |
+| 2  | binary_search         |                                                 | search            | FUNDAMENTALS  |          |
+| 3  | merge                 | merge two sorted arrays                         | sort              |               |          |
+| 4  | merge_sort            |                                                 | sort              | FUNDAMENTALS  |          |
+| 5  | quick_sort            |                                                 | sort              |               |          |
+| 6  | remove_even           | remove even numbers from array                  | lists             |               |          |
+| 7  | find_sum              | Find Two Numbers that Add up to "K"             | lists             |               |          |
+| 8  | find_product          | List of Products of all Elements                | lists             |               |          |
+| 9  | find_smallest         |                                                 | sort              |               |          |
+| 10 | select_sort           |                                                 | sort              | FUNDAMENTALS  |          |
+| 11 | find_minimum          |                                                 | lists             |               |          |
+| 12 | counter               | How many times repeated n in lst                | lists             |               |          |
+| 13 | find_unique           | Return single unique value                      | lists             |               |          |
+| 14 | find_second_maximum   | Return second maximum value                     | lists             |               |          |
+| 15 | right_rotate          | Rotate elements by one index from right to left | lists             |               |          |
+| 16 | rearrange             | Rearrange Positive & Negative Values            | lists             |               |          |
+| 17 | max_min               | Rearrange Sorted List in Max/Min Form           | lists             |               |          |
+| 18 | find_max_sum_sublist  | Maximum Sum Sublist                             | lists             |               |          |
