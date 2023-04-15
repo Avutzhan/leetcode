@@ -1,7 +1,7 @@
 import unittest
 
 from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum, \
-    right_rotate, rearrange
+    right_rotate, rearrange, max_min
 
 
 class TestSearch(unittest.TestCase):
@@ -36,6 +36,13 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(rearrange([-1, 2, -3, -4, 5]), [-1, -3, -4, 2, 5])
         self.assertEqual(rearrange([300, -1, 3, 0]), [-1, 300, 3, 0])
         self.assertEqual(rearrange([0, 0, 0, -2]), [-2, 0, 0, 0])
+
+    def test_max_min(self):
+        self.assertEqual(max_min([1, 2, 3, 4, 5, 6, 7]), [7, 1, 6, 2, 5, 3, 4])
+        self.assertEqual(max_min([1, 2, 3, 4, 5]), [5, 1, 4, 2, 3])
+        self.assertEqual(max_min([]), [])
+        self.assertEqual(max_min([1, 1, 1, 1, 1]), [1, 1, 1, 1, 1])
+        self.assertEqual(max_min([-10, -1, 1, 1, 1, 1]), [1, -10, 1, -1, 1, 1])
 
 
 if __name__ == '__main__':

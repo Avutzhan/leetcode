@@ -40,3 +40,6 @@ def right_rotate(lst, k):
 def rearrange(lst):
     pass
 
+
+def max_min(lst):
+    pass
