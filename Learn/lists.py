@@ -54,3 +54,15 @@ def counter(lst, n):
         if i == n:
             count += 1
     return count
+
+
+def find_second_maximum(lst):
+    mx = float('-inf')
+    secondmax = float('-inf')
+    for val in lst:
+        if val > mx:
+            secondmax = mx
+            mx = val
+        elif val > secondmax:
+            secondmax = val
+    return secondmax

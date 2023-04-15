@@ -1,6 +1,6 @@
 import unittest
 
-from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique
+from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum
 
 
 class TestSearch(unittest.TestCase):
@@ -19,6 +19,10 @@ class TestSearch(unittest.TestCase):
 
     def test_find_unique(self):
         self.assertEqual(find_unique([1, 1, 2, 3, 3, 4, 4]), 2)
+
+    def test_find_second_maximum(self):
+        self.assertEqual(find_second_maximum([9, 2, 3, 6]), 6)
+        self.assertEqual(find_second_maximum([4, 2, 1, 5, 0]), 4)
 
 
 if __name__ == '__main__':

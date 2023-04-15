@@ -27,3 +27,7 @@ def find_unique(lst):
 # How many times n repeated in lst
 def counter(lst, n):
     pass
+
+
+def find_second_maximum(lst):
+    pass
