@@ -1,7 +1,7 @@
 import unittest
 
 from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum, \
-    right_rotate, rearrange, max_min
+    right_rotate, rearrange, max_min, find_max_sum_sublist
 
 
 class TestSearch(unittest.TestCase):
@@ -43,6 +43,9 @@ class TestSearch(unittest.TestCase):
         self.assertEqual(max_min([]), [])
         self.assertEqual(max_min([1, 1, 1, 1, 1]), [1, 1, 1, 1, 1])
         self.assertEqual(max_min([-10, -1, 1, 1, 1, 1]), [1, -10, 1, -1, 1, 1])
+
+    def test_find_max_sum_sublist(self):
+        self.assertEqual(find_max_sum_sublist([-4, 2, -5, 1, 2, 3, 6, -5, 1]), 12)
 
 
 if __name__ == '__main__':

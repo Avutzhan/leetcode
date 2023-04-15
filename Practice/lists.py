@@ -43,3 +43,8 @@ def rearrange(lst):
 
 def max_min(lst):
     pass
+
+
+def find_max_sum_sublist(lst):
+    pass
+
