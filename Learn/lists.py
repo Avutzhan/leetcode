@@ -13,6 +13,19 @@ def find_sum(lst, k):
                 return [lst[i], lst[j]]
 
 
+# Time: O(n^2)
+# Space: O(n)
+def find_product_brute_force(lst):
+    res = []
+    for i in range(len(lst)):
+        product = 1
+        for j in range(len(lst)):
+            if i != j:
+                product = product * lst[j]
+        res.append(product)
+    return res
+
+
 # Time: O(n)
 # Space: O(n)
 # Description: Given a list, modify it so that each index stores the product of all elements
