@@ -69,6 +69,16 @@ def counter(lst, n):
     return count
 
 
+# Time: O(nlogn)
+# Space: O(1)
+# This solution not working correctly with list with dublicates
+def find_second_maximum_sorting(lst):
+    lst.sort()
+    if len(lst) >= 2:
+        return lst[-2]
+    return -1
+
+
 def find_second_maximum(lst):
     mx = float('-inf')
     secondmax = float('-inf')
