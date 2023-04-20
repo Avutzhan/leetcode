@@ -70,25 +70,29 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
     Learn algorithmic thinking!
     Not writing code.
     You will write code looking at the picture that explains the problem
+    
+    Repeat in morning and before few hours of sleep
+    Repeat algorithm every day untill you polish it
+    After Polishing Repeat every week
 ```
 
-| #  | Title                 | Description                                     | Directory / Topic | Category      | Polished |
-|----|-----------------------|-------------------------------------------------|-------------------|---------------|----------|
-| 1  | linear_search         |                                                 | search            | FUNDAMENTALS  |          |
-| 2  | binary_search         |                                                 | search            | FUNDAMENTALS  |          |
-| 3  | merge                 | merge two sorted arrays                         | sort              |               |          |
-| 4  | merge_sort            |                                                 | sort              | FUNDAMENTALS  |          |
-| 5  | quick_sort            |                                                 | sort              |               |          |
-| 6  | remove_even           | remove even numbers from array                  | lists             |               |          |
-| 7  | find_sum              | Find Two Numbers that Add up to "K"             | lists             |               |          |
-| 8  | find_product          | List of Products of all Elements                | lists             |               |          |
-| 9  | find_smallest         |                                                 | sort              |               |          |
-| 10 | select_sort           |                                                 | sort              | FUNDAMENTALS  |          |
-| 11 | find_minimum          |                                                 | lists             |               |          |
-| 12 | counter               | How many times repeated n in lst                | lists             |               |          |
-| 13 | find_unique           | Return single unique value                      | lists             |               |          |
-| 14 | find_second_maximum   | Return second maximum value                     | lists             |               |          |
-| 15 | right_rotate          | Rotate elements by one index from right to left | lists             |               |          |
-| 16 | rearrange             | Rearrange Positive & Negative Values            | lists             |               |          |
-| 17 | max_min               | Rearrange Sorted List in Max/Min Form           | lists             |               |          |
-| 18 | find_max_sum_sublist  | Maximum Sum Sublist                             | lists             |               |          |
+| #  | Title                 | Description                                     | Directory / Topic | Category      | Polished | Last Repeated Date |
+|----|-----------------------|-------------------------------------------------|-------------------|---------------|----------|--------------------|
+| 1  | linear_search         |                                                 | search            | FUNDAMENTALS  | yes      | 04/20/2023         |
+| 2  | binary_search         |                                                 | search            | FUNDAMENTALS  | yes      | 04/20/2023         |
+| 3  | merge                 | merge two sorted arrays                         | sort              |               | yes      | 04/20/2023         |
+| 4  | merge_sort            |                                                 | sort              | FUNDAMENTALS  | yes      | 04/20/2023         |
+| 5  | quick_sort            |                                                 | sort              |               | yes      | 04/20/2023         |
+| 6  | remove_even           | remove even numbers from array                  | lists             |               | yes      | 04/20/2023         |
+| 7  | find_sum              | Find Two Numbers that Add up to "K"             | lists             |               | yes      | 04/20/2023         |
+| 8  | find_product          | List of Products of all Elements                | lists             |               |          |                    |
+| 9  | find_smallest         |                                                 | sort              |               | yes      | 04/20/2023         |
+| 10 | select_sort           |                                                 | sort              | FUNDAMENTALS  | yes      | 04/20/2023         |
+| 11 | find_minimum          |                                                 | lists             |               | yes      | 04/20/2023         |
+| 12 | counter               | How many times repeated n in lst                | lists             |               | yes      | 04/20/2023         |
+| 13 | find_unique           | Return single unique value                      | lists             |               |          |                    |
+| 14 | find_second_maximum   | Return second maximum value                     | lists             |               |          |                    |
+| 15 | right_rotate          | Rotate elements by one index from right to left | lists             |               |          |                    |
+| 16 | rearrange             | Rearrange Positive & Negative Values            | lists             |               |          |                    |
+| 17 | max_min               | Rearrange Sorted List in Max/Min Form           | lists             |               |          |                    |
+| 18 | find_max_sum_sublist  | Maximum Sum Sublist                             | lists             |               |          |                    |
