@@ -36,6 +36,7 @@ def quick_sort(lst):
 
 # Time: O(n + m)
 # Space: O(n + m)
+# merge two sorted arrays
 def merge(lst1, lst2):
     idx1 = 0
     idx2 = 0

@@ -1,11 +1,13 @@
 # Time: O(n)
 # Space: O(n)
+# remove even numbers from array
 def remove_even(lst):
     return [item for item in lst if item % 2 != 0]
 
 
 # Time: O(n^2)
 # Space: O(1)
+# Find Two Numbers that Add up to "K"
 def find_sum(lst, k):
     for i in range(len(lst)):
         for j in range(len(lst)):
@@ -15,6 +17,7 @@ def find_sum(lst, k):
 
 # Time: O(n^2)
 # Space: O(n)
+# List of Products of all Elements
 def find_product_brute_force(lst):
     res = []
     for i in range(len(lst)):
@@ -53,6 +56,7 @@ def find_minimum(lst):
     return minimum
 
 
+# Return single unique value
 def find_unique(lst):
     for i in lst:
         if counter(lst, i) == 1:
@@ -61,6 +65,7 @@ def find_unique(lst):
     return -1
 
 
+# How many times repeated n in lst
 def counter(lst, n):
     count = 0
     for i in lst:
@@ -72,6 +77,7 @@ def counter(lst, n):
 # Time: O(nlogn)
 # Space: O(1)
 # This solution not working correctly with list with dublicates
+# Return second maximum value
 def find_second_maximum_sorting(lst):
     lst.sort()
     if len(lst) >= 2:
@@ -91,6 +97,7 @@ def find_second_maximum(lst):
     return secondmax
 
 
+# Rotate elements by one index from right to left
 def right_rotate(lst, k):
     if len(lst) == 0:
         k = 0
@@ -99,10 +106,12 @@ def right_rotate(lst, k):
     return lst[-k:] + lst[:-k]
 
 
+# Rearrange Positive & Negative Values
 def rearrange(lst):
     return [i for i in lst if i < 0] + [i for i in lst if i >= 0]
 
 
+# Rearrange Sorted List in Max/Min Form
 def max_min(lst):
     result = []
     for i in range(len(lst) // 2):
@@ -113,6 +122,7 @@ def max_min(lst):
     return result
 
 
+# Maximum Sum Sublist
 def find_max_sum_sublist(lst):
     if len(lst) < 1:
         return 0
