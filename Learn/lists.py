@@ -97,6 +97,14 @@ def find_second_maximum(lst):
     return secondmax
 
 
+def right_rotate_brute_force(lst, k):
+    res = [i for i in lst]
+
+    for i in range(len(lst)):
+        res[(i + k) % len(lst)] = lst[i]
+    return res
+
+
 # Rotate elements by one index from right to left
 def right_rotate(lst, k):
     if len(lst) == 0:
