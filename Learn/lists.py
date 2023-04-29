@@ -122,11 +122,15 @@ def rearrange(lst):
 # Rearrange Sorted List in Max/Min Form
 def max_min(lst):
     result = []
-    for i in range(len(lst) // 2):
-        result.append(lst[-(i + 1)])
+    # iterate half list
+    for i in range(len(lst)//2):
+        # Append corresponding last element
+        result.append(lst[-(i+1)])
+        # append current element
         result.append(lst[i])
-    if len(lst) % 2:
-        result.append(lst[len(lst) // 2])
+    if len(lst) % 2 == 1:
+        # if middle value then append
+        result.append(lst[len(lst)//2])
     return result
 
 
