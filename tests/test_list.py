@@ -1,6 +1,6 @@
 import unittest
 
-from Practice.lists import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum, \
+from Practice.list import remove_even, find_sum, find_product, find_minimum, find_unique, find_second_maximum, \
     right_rotate, rearrange, max_min, find_max_sum_sublist
 
 

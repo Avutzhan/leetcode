@@ -76,6 +76,8 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
     After Polishing Repeat every week
 ```
 
+### Lists
+
 | #  | Title                 | Polished | Last Repeated Date |
 |----|-----------------------|----------|--------------------|
 | 1  | linear_search         | yes      | 04/20/2023         |
@@ -96,3 +98,12 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 | 16 | rearrange             |          |                    |
 | 17 | max_min               |          |                    |
 | 18 | find_max_sum_sublist  |          |                    |
+
+### Linked Lists
+
+| # | Title      | Polished | Last Repeated Date |
+|---|------------|----------|--------------------|
+| 1 | Node       |          |                    |
+| 2 | LinkedList |          |                    |
+| 3 | get_head   |          |                    |
+| 4 | is_empty   |          |                    |
