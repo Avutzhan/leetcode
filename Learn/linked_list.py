@@ -19,12 +19,14 @@ class LinkedList:
         else:
             return False
 
+    def insert_at_head(self, data):
+        temp_node = Node(data)
+        temp_node.next_element = self.head_node
+        self.head_node = temp_node
+        return self.head_node
+
 
 def insert_at_tail(data):
-    pass
-
-
-def insert_at_head(data):
     pass
 
 
