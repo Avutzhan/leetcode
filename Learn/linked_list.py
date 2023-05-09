@@ -26,8 +26,20 @@ class LinkedList:
         return self.head_node
 
 
-def insert_at_tail(data):
-    pass
+def insert_at_tail(lst, value):
+    new_node = Node(value)
+
+    if lst.get_head() is None:
+        lst.head_node = new_node
+        return
+
+    temp = lst.get_head()
+
+    while temp.next_element:
+        temp = temp.next_element
+
+    temp.next_element = new_node
+    return
 
 
 def delete(data):
