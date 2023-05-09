@@ -50,8 +50,14 @@ def delete_at_head():
     pass
 
 
-def search(data):
-    pass
+def search(node, value):
+    if not node:
+        return False
+
+    if node.data is value:
+        return True
+
+    return search(node.next_element, value)
 
 
 def is_empty():
