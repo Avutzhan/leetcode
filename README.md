@@ -101,9 +101,13 @@ I will try new method **Divide and Conquer**. This method must be quick and effe
 
 ### Linked Lists
 
-| # | Title      | Polished | Last Repeated Date |
-|---|------------|----------|--------------------|
-| 1 | Node       |          |                    |
-| 2 | LinkedList |          |                    |
-| 3 | get_head   |          |                    |
-| 4 | is_empty   |          |                    |
+| # | Title          | Polished | Last Repeated Date |
+|---|----------------|----------|--------------------|
+| 1 | Node           |          |                    |
+| 2 | LinkedList     |          |                    |
+| 3 | get_head       |          |                    |
+| 4 | is_empty       |          |                    |
+| 5 | insert_at_head |          |                    |
+| 6 | insert_at_tail |          |                    |
+| 7 | delete_at_head |          |                    |
+| 8 | search         |          |                    |

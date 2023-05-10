@@ -42,8 +42,33 @@ def insert_at_tail(lst, value):
     return
 
 
-def delete(data):
-    pass
+def delete(lst, value):
+    deleted = False
+    if lst.is_empty():
+        print("List is Empty")
+        return deleted
+    current_node = lst.get_head()
+    previous_node = None
+    if current_node.data == value:
+        lst.delete_at_head()
+        deleted = True
+        return deleted
+
+    while current_node is not None:
+        if value == current_node.data:
+            previous_node.next_element = current_node.next_element
+            current_node.next_element = None
+            deleted = True
+            break
+        previous_node = current_node
+        current_node = current_node.next_element
+
+    if deleted == False:
+        print(str(value) + " is not in list!")
+    else:
+        print(str(value) + " deleted!")
+
+    return deleted
 
 
 def delete_at_head(lst):
@@ -64,8 +89,5 @@ def search(node, value):
 
     return search(node.next_element, value)
 
-
-def is_empty():
-    pass
 
 
