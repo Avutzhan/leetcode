@@ -46,8 +46,13 @@ def delete(data):
     pass
 
 
-def delete_at_head():
-    pass
+def delete_at_head(lst):
+    first_element = lst.get_head()
+
+    if first_element is not None:
+        lst.head_node = first_element.next_element
+        first_element.next_element = None
+    return
 
 
 def search(node, value):
