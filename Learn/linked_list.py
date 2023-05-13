@@ -90,4 +90,126 @@ def search(node, value):
     return search(node.next_element, value)
 
 
+def length(lst):
+    # start from the first element
+    curr = lst.get_head()
+    length = 0
 
+    # Traverse the list and count the number of nodes
+    while curr:
+        length += 1
+        curr = curr.next_element
+    return length
+
+
+def reverse(lst):
+    previous = None
+    current = lst.get_head()
+    nextNode = None
+
+    while current:
+        nextNode = current.next_element
+        current.next_element = previous
+        previous = current
+        current = nextNode
+
+        lst.head_node = previous
+    return lst
+
+
+# Floyd's Cycle Finding Algorithm
+def detect_loop(lst):
+    # Keep two iterators
+    onestep = lst.get_head()
+    twostep = lst.get_head()
+    while onestep and twostep and twostep.next_element:
+        onestep = onestep.next_element  # Moves one node at a time
+        twostep = twostep.next_element.next_element  # Skips a node
+        if onestep == twostep:  # Loop exists
+            return True
+    return False
+
+
+def find_mid(lst):
+    if lst.is_empty():
+        return None
+
+    node = lst.get_head()
+    mid = 0
+    if lst.length() % 2 == 0:
+        mid = lst.length()//2
+    else:
+        mid = lst.length()//2 + 1
+
+    for i in range(mid - 1):
+        node = node.next_element
+
+    return node.data
+
+
+def remove_duplicates(lst):
+    if lst.is_empty():
+        return None
+
+    # If list only has one node, leave it unchanged
+    if lst.get_head().next_element is None:
+        return lst
+
+    outer_node = lst.get_head()
+    while outer_node:
+        inner_node = outer_node  # Iterator for the inner loop
+        while inner_node:
+            if inner_node.next_element:
+                if outer_node.data == inner_node.next_element.data:
+                    # Duplicate found, so now removing it
+                    new_next_element = inner_node.next_element.next_element
+                    inner_node.next_element = new_next_element
+                else:
+                    # Otherwise simply iterate ahead
+                    inner_node = inner_node.next_element
+            else:
+                # Otherwise simply iterate ahead
+                inner_node = inner_node.next_element
+        outer_node = outer_node.next_element
+
+    return lst
+
+
+def union(list1, list2):
+    if list1.is_empty():
+        return list2
+    elif list2.is_empty():
+        return list1
+
+    start = list1.get_head()
+
+    while start.next_element:
+        start = start.next_element
+
+    start.next_element = list2.get_head()
+    list1.remove_duplicates()
+    return list1
+
+
+def find_nth(lst, n):
+    if lst.is_empty():
+        return -1
+
+    length = lst.length() - 1
+
+    current_node = lst.get_head()
+
+    position = length - n + 1
+
+    if position < 0 or position > length:
+        return -1
+
+    count = 0
+
+    while count is not position:
+        current_node = current_node.next_element
+        count += 1
+
+    if current_node:
+        return current_node.data
+    return -1
